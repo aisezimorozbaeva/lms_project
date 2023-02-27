@@ -27,24 +27,24 @@ public class User {
     @Schema(description = "Идентификатор", accessMode = Schema.AccessMode.READ_ONLY)
     Long id;
 
-    @Schema(description = "username", example = "almazbekov25")
+    @Schema(description = "username", example = "orozbaeva47")
     @Column(name = "username")
     String username;
 
 
-    @Schema(description = "имя", example = "айдар")
+    @Schema(description = "имя", example = "aisezim")
     @Column(name = "first_name")
     String firstName;
 
-    @Schema(description = "фамилия", example = "алмазбеков")
+    @Schema(description = "фамилия", example = "orozbaeva")
     @Column(name = "last_name")
     String lastName;
 
-    @Schema(description = "пол", example = "MALE")
+    @Schema(description = "пол", example = "FEMALE")
     @Column(name = "gender")
     String gender;
 
-    @Schema(description = "email", example = "03aid@gmail.com")
+    @Schema(description = "email", example = "ais@gmail.com")
     @Column(name = "email")
     String email;
 
